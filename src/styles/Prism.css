@@ -1,0 +1,48 @@
+/* MarginPaddingComponent.css */
+
+.container {
+  display: flex;
+  position: relative;
+  background-color: #2a3b5a;
+  padding: 24px;
+  width: auto;
+  height: 200px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.absolute-top {
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.absolute-right {
+  top: 50%;
+  right: 10px;
+  transform: translate(0px, -50%);
+}
+
+.absolute-bottom {
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.absolute-left {
+  top: 50%;
+  left: 10px;
+  transform: translate(0px, -50%);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 160px;
+  width: 160px;
+  border: solid 2px white;
+}

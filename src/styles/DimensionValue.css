@@ -1,0 +1,19 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  width: 60px;
+}
+
+.value-input {
+  width: 40px;
+}
+
+.changed {
+  border-bottom: dashed 1px yellow;
+  font-weight: 600;
+}
+
+.default {
+  color: #a9a9a9;
+}
